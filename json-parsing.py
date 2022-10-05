@@ -45,6 +45,6 @@ if __name__ == "__main__":
         sys.stderr.write(f'Error: {response.status_code}')
         exit(1)
 
-    avg_velocity = avg_velocity(url)
-    print(f'ISS Average Velocity (km/hr): {avg_velocity}')
-    print(f'ISS Average Velocity (mi/hr): {km_to_mile(avg_velocity)}')
+    #avg_velocity = avg_velocity(url)
+    #print(f'ISS Average Velocity (km/hr): {avg_velocity}')
+    #print(f'ISS Average Velocity (mi/hr): {km_to_mile(avg_velocity)}')
